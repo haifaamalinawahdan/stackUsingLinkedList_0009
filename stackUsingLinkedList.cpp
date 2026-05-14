@@ -116,6 +116,14 @@ int main()
                 cout << "Stack is empty. Cannot peek." << endl;
             }
             break;
+        case 4:
+            cout << "Exiting the program." << endl;
+            break;
+        default:
+            cout << "invalid choice. Try again." << endl;
+            break;
+        }
+        cout << endl;
 
     }
 }
